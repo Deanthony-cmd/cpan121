@@ -1,0 +1,10 @@
+{
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified",
+    "start": "node 02.js"
+  }
+}
