@@ -10,7 +10,7 @@ let today = new Date();
 
 holidays.forEach(holiday => {
     const timeDiff = holiday.date - today;
-    const daysTill = Math.cell(timeDiff/(1000*60*60*24))
+    const daysTill = Math.ceil(timeDiff / (1000*60*60*24))
     console.log(`${holiday.name} is in ${daysTill} days`)
 
 });
